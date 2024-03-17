@@ -1,36 +1,9 @@
-# Welcome to Remix + Vite!
+This project uses Remix.run. It shows 4 forms on one page:
+1. the table of (tiny url, long url, long url's click count).
+2. tiny url creation: create a random or custom tiny url given a long url and a custom url (optional).
+3. tiny url deletion.
+4. tiny url query: given a tiny url, print long url and click count.
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+models/Store.ts has the data model and necessary information (e.g. tiny url query result, duplicate custom tiny url error message) needed by UI.
 
-## Development
-
-Run the Vite dev server:
-
-```shellscript
-npm run dev
-```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+To run: `npm run dev`.
