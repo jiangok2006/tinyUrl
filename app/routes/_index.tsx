@@ -163,7 +163,7 @@ export default function Index() {
             <div>
               {spotlight === undefined ? "" :
                 spotlight == null ?
-                  "not found" : `spotlight: ${spotlight.longUrl}, clickcount: ${spotlight.clickCount}`}
+                  "not found" : `longUrl: ${spotlight.longUrl}, clickcount: ${spotlight.clickCount}`}
             </div>
           </div>
         </Form>

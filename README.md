@@ -4,6 +4,8 @@ This project uses Remix.run. It shows 4 forms on one page:
 3. tiny url deletion.
 4. tiny url query: given a tiny url, print long url and click count.
 
+![Alt text](UI.png "web UI")
+
 models/Store.ts has the data model and necessary information (e.g. tiny url query result, duplicate custom tiny url error message) needed by UI.
 
-To run: `npm run dev`.
+To run this project: `npm run dev`.
